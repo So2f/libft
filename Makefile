@@ -37,11 +37,12 @@ SRCS	=	./ft_isascii.c		\
 			./ft_putendl_fd.c	\
 			./ft_strjoin.c		\
 			./ft_strnstr.c		\
-			./ft_putendl		\
-			./ft_puterror		\
-			./ft_putstr			\
-			./ft_str_to_lowcase \
-			./ft_strequ			\
+			./ft_putendl.c		\
+			./ft_puterror.c		\
+			./ft_putstr.c			\
+			./ft_str_to_lowcase.c \
+			./ft_strequ.c			\
+			./ft_strcmp.c			\
 
 OBJS	=	$(SRCS:.c=.o)
 
