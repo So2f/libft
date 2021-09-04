@@ -43,6 +43,8 @@ SRCS	=	./ft_isascii.c		\
 			./ft_str_to_lowcase.c \
 			./ft_strequ.c			\
 			./ft_strcmp.c			\
+			./ft_program_name.c		\
+			./ft_strcap.c			\
 
 OBJS	=	$(SRCS:.c=.o)
 

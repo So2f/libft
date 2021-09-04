@@ -6,7 +6,7 @@
 /*   By: soel-kar <soel-kar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/04 02:09:56 by soel-kar          #+#    #+#             */
-/*   Updated: 2021/09/04 02:49:38 by soel-kar         ###   ########.fr       */
+/*   Updated: 2021/09/04 03:01:30 by soel-kar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,7 @@ void				ft_puterror(char *msg, int ret);
 void				ft_putstr(char const *s);
 char				*ft_str_to_lowcase(char *str);
 int					ft_strequ(char const *s1, char const *s2);
+char				*ft_program_name(char const *argv0);
+char				*ft_strcap(char *str);
 
 #endif
